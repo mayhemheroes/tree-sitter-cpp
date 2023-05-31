@@ -11,7 +11,7 @@ cargo-fuzz = true
 [dependencies]
 honggfuzz = "0.5.55"
 tree-sitter = "0.20"
-tree-sitter-cpp = { path = ".." } # "*"
+tree-sitter-cpp = "*"
 
 # Prevent this from interfering with workspaces
 [workspace]
